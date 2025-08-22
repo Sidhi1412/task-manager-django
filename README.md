@@ -68,5 +68,5 @@ mutation {
 
 ## Notes
 - Valid `status` values: `PENDING | IN_PROGRESS | COMPLETED`
-- DB: SQLite by default; swap `DATABASES` in `settings.py` for Postgres if desired.
-- Bonus: Mutations implemented using the DRF `TaskSerializer` for validation.
+- DB: SQLite by default.
+- Mutations implemented using the DRF `TaskSerializer` for validation.
